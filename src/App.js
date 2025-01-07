@@ -8,7 +8,6 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 // Import components
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 // Import styling
@@ -17,7 +16,6 @@ import './styles/App.css'
 function App() {
   return (
     <Router>
-      <Navbar />
       <div className="main-content">
         <Routes>
           <Route exact path="/" element={<Home />} />
