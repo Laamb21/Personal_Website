@@ -1,5 +1,0 @@
-Text file to add what's up next
-
-Have header buttons surround image 
-Add a color theme to the site
-Add animations to elements (fading in and out, etc.)
