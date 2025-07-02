@@ -1,7 +1,62 @@
 [
     {
-        "title": "Project A",
-        "description": "Tech used in project",
-        "repoLink": "link-to-repo"
+        "id": 1,
+        "title": "E-Commerce Platform",
+        "description": "A full-stack e-commerce platform built with React, Node.js, and PostgreSQL. Features include user authentication, product catalog, shopping cart, payment integration, and admin dashboard.",
+        "technologies": ["React", "Node.js", "Express", "PostgreSQL", "Stripe", "JWT"],
+        "image": "/images/project-ecommerce.jpg",
+        "githubLink": "https://github.com/yourusername/ecommerce-platform",
+        "liveLink": "https://ecommerce-demo.vercel.app",
+        "category": "Full-Stack"
+    },
+    {
+        "id": 2,
+        "title": "Task Management App",
+        "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Firebase.",
+        "technologies": ["React", "Firebase", "Material-UI", "React DnD", "Context API"],
+        "image": "/images/project-taskapp.jpg",
+        "githubLink": "https://github.com/yourusername/task-management-app",
+        "liveLink": "https://task-app-demo.netlify.app",
+        "category": "Frontend"
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
+        "description": "A weather application that displays current weather conditions and forecasts for any location. Features include location search, weather maps, and historical data visualization.",
+        "technologies": ["React", "OpenWeather API", "Chart.js", "CSS Grid", "Geolocation API"],
+        "image": "/images/project-weather.jpg",
+        "githubLink": "https://github.com/yourusername/weather-dashboard",
+        "liveLink": "https://weather-dashboard-demo.vercel.app",
+        "category": "Frontend"
+    },
+    {
+        "id": 4,
+        "title": "Blog API",
+        "description": "A RESTful API for a blogging platform with features like user authentication, CRUD operations for posts, comments, and image upload functionality.",
+        "technologies": ["Node.js", "Express", "MongoDB", "JWT", "Multer", "Jest"],
+        "image": "/images/project-blogapi.jpg",
+        "githubLink": "https://github.com/yourusername/blog-api",
+        "liveLink": "https://blog-api-demo.herokuapp.com",
+        "category": "Backend"
+    },
+    {
+        "id": 5,
+        "title": "Portfolio Website",
+        "description": "A responsive personal portfolio website showcasing projects, skills, and experience. Built with modern React practices and clean, accessible design.",
+        "technologies": ["React", "CSS3", "React Router", "Responsive Design", "Accessibility"],
+        "image": "/images/project-portfolio.jpg",
+        "githubLink": "https://github.com/yourusername/portfolio-website",
+        "liveLink": "https://your-portfolio.vercel.app",
+        "category": "Frontend"
+    },
+    {
+        "id": 6,
+        "title": "Chat Application",
+        "description": "A real-time chat application with features like private messaging, group chats, file sharing, and online status indicators. Built with Socket.io and React.",
+        "technologies": ["React", "Socket.io", "Node.js", "Express", "MongoDB", "JWT"],
+        "image": "/images/project-chat.jpg",
+        "githubLink": "https://github.com/yourusername/chat-application",
+        "liveLink": "https://chat-app-demo.herokuapp.com",
+        "category": "Full-Stack"
     }
 ]
