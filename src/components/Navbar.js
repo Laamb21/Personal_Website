@@ -17,10 +17,6 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo">
-          Liam
-        </Link>
-        
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <Link 
             to="/" 
