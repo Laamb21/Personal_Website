@@ -1,3 +1,14 @@
+:root {
+  --contact-gradient-light: linear-gradient(135deg, #5B9BD5 0%, #2980B9 100%);
+  --contact-gradient-dark: linear-gradient(135deg, #82AAFF 0%, #5B9BD5 100%);
+}
+.app.dark & {
+  --contact-gradient: var(--contact-gradient-dark);
+}
+& {
+  --contact-gradient: var(--contact-gradient-light);
+}
+
 .contact-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -15,7 +26,7 @@
   font-size: 3rem;
   color: #333;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--contact-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -84,7 +95,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--contact-gradient);
   color: white;
   border-radius: 50%;
 }
@@ -188,7 +199,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--color-accent);
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
@@ -198,7 +209,7 @@
 }
 
 .submit-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--contact-gradient);
   color: white;
   border: none;
   padding: 1rem 2rem;

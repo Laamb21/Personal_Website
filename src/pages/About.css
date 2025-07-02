@@ -1,3 +1,15 @@
+/* Replace all purple gradients and colors with blue accent variables */
+:root {
+  --about-gradient-light: linear-gradient(135deg, #5B9BD5 0%, #2980B9 100%);
+  --about-gradient-dark: linear-gradient(135deg, #82AAFF 0%, #5B9BD5 100%);
+}
+.app.dark & {
+  --about-gradient: var(--about-gradient-dark);
+}
+& {
+  --about-gradient: var(--about-gradient-light);
+}
+
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -15,7 +27,7 @@
   font-size: 3rem;
   color: #333;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--about-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -98,7 +110,7 @@
   font-size: 1.3rem;
   color: #333;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #667eea;
+  border-bottom: 2px solid var(--color-accent);
   padding-bottom: 0.5rem;
 }
 
@@ -109,7 +121,7 @@
 }
 
 .skill-tag {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--about-gradient);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -151,7 +163,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--about-gradient);
   transform: translateX(-50%);
 }
 
@@ -189,7 +201,7 @@
   top: 50%;
   width: 12px;
   height: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--about-gradient);
   border-radius: 50%;
   transform: translateY(-50%);
 }
@@ -210,7 +222,7 @@
 
 .timeline-company {
   font-weight: 600;
-  color: #667eea;
+  color: var(--color-accent);
   margin-bottom: 0.5rem;
 }
 

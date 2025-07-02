@@ -1,3 +1,15 @@
+/* Replace all purple gradients and colors with blue accent variables */
+:root {
+  --home-gradient-light: linear-gradient(135deg, #5B9BD5 0%, #2980B9 100%);
+  --home-gradient-dark: linear-gradient(135deg, #82AAFF 0%, #5B9BD5 100%);
+}
+.app.dark & {
+  --home-gradient: var(--home-gradient-dark);
+}
+& {
+  --home-gradient: var(--home-gradient-light);
+}
+
 .home-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -25,16 +37,16 @@
   font-size: 3.5rem;
   color: #333;
   margin: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: none;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+  background-clip: initial;
   line-height: 1.2;
 }
 
 .home-subtitle {
   font-size: 1.5rem;
-  color: #667eea;
+  color: var(--color-accent);
   margin: 0;
   font-weight: 500;
 }
@@ -64,23 +76,23 @@
 }
 
 .home-btn.primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--home-gradient);
   color: white;
 }
 
 .home-btn.primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 15px rgba(var(--color-accent-rgb), 0.4);
 }
 
 .home-btn.secondary {
   background: white;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
 }
 
 .home-btn.secondary:hover {
-  background: #667eea;
+  background: var(--color-accent);
   color: white;
   transform: translateY(-2px);
 }

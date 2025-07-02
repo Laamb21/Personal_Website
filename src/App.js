@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState, createContext } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 // Import pages
 import Home from './pages/Home';
@@ -15,10 +15,18 @@ import Footer from './components/Footer';
 // Import styling
 import './styles/App.css'
 
+export const ThemeContext = createContext();
+
 function App() {
+  const [theme, setTheme] = useState('light');
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+  };
+
   return (
-    <Router>
-      <div className="app">
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className={`app ${theme}`}>
         <Navbar />
         <main className="main-content">
           <Routes>
@@ -30,8 +38,16 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        {/* Floating Theme Toggle Button */}
+        <button
+          className="theme-toggle-btn"
+          onClick={toggleTheme}
+          aria-label="Toggle light and dark mode"
+        >
+          {theme === 'light' ? '🌙' : '☀️'}
+        </button>
       </div>
-    </Router>
+    </ThemeContext.Provider>
   );
 }
 
