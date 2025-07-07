@@ -8,7 +8,7 @@ function Home() {
       <div className="home-content">
         <div className="home-text">
           <h1 className="home-title">Hey, I'm Liam 👋</h1>
-          <h2 className="home-subtitle">Software Developer</h2>
+          <h2 className="home-subtitle">Sales Representative & Solutions Coordinator | Software Developer</h2>
           <p className="home-description">
             I'm passionate about building software that people <em>want</em> to use, not just because it works, but because it feels right. 
             I enjoy taking on challenges that matter and finding creative, effective ways to solve them.
