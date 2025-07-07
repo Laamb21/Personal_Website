@@ -42,6 +42,11 @@
   -webkit-text-fill-color: initial;
   background-clip: initial;
   line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+.app.dark .home-title {
+  color: #f8f9fa;
 }
 
 .home-subtitle {
@@ -56,6 +61,11 @@
   color: #666;
   line-height: 1.6;
   margin: 0;
+  transition: color 0.3s ease;
+}
+
+.app.dark .home-description {
+  color: #e9ecef;
 }
 
 .home-buttons {
