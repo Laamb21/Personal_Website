@@ -10,9 +10,8 @@ function Home() {
           <h1 className="home-title">Hey, I'm Liam 👋</h1>
           <h2 className="home-subtitle">Software Developer</h2>
           <p className="home-description">
-            I create beautiful, functional, and user-centered digital experiences. 
-            Passionate about building applications that solve real-world problems 
-            and delight users.
+            I'm passionate about building software that people <em>want</em> to use, not just because it works, but because it feels right. 
+            I enjoy taking on challenges that matter and finding creative, effective ways to solve them.
           </p>
           <div className="home-buttons">
             <Link to="/projects" className="home-btn primary">
