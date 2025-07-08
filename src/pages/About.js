@@ -20,22 +20,20 @@ function About() {
           <div className="about-text">
             <h2>Hi, I'm Liam 👋</h2>
             <p>
-              I'm a passionate full-stack developer with a love for creating beautiful, 
-              functional, and user-centered digital experiences. With a background in 
-              both frontend and backend development, I enjoy building applications that 
-              solve real-world problems and delight users.
+              I'm a recent computer science graduate who's into building cool stuff with 
+              code and making life a little easier with tech. Whether I'm working on web 
+              apps, automating boring tasks, or just tinkering with the latest tools, I 
+              get a kick out of learning new things and solving interesting problems no
+              matter what the framework.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, 
-              contributing to open-source projects, or sharing my knowledge through 
-              blog posts and tutorials. I believe in continuous learning and staying 
-              up-to-date with the latest industry trends and best practices.
+              I'm all about experimenting with side projects, bouncing ideas around with 
+              friends, and picking up new skills whenever I can. I enjoy collaborating with
+              others, whether that's helping out on a team project, troubleshooting a tough
+              bug, or just geeking out over a new piece of technology.
             </p>
             <p>
-              I'm always excited to work on new projects and collaborate with 
-              like-minded developers. Whether it's building a new feature, 
-              optimizing performance, or mentoring junior developers, I'm ready 
-              to take on new challenges.
+              Fun fact: I'm a die-hard Ravens fan, and I'll talk football with anyone who'll listen.
             </p>
           </div>
           <div className="about-image">
