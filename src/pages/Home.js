@@ -29,19 +29,19 @@ function Home() {
       
       <div className="home-features">
         <div className="feature">
-          <span className="feature-icon">💻</span>
-          <h3>Web Development</h3>
-          <p>Building responsive and modern web applications</p>
+          <span className="feature-icon">🌐</span>
+          <h3>Web & Software Development</h3>
+          <p>Creating responsive, scalable applications that deliver great experiences to any device.</p>
         </div>
         <div className="feature">
-          <span className="feature-icon">🎨</span>
-          <h3>UI/UX Design</h3>
-          <p>Creating intuitive and beautiful user experiences</p>
+          <span className="feature-icon">⚡</span>
+          <h3>Automation & Efficiency</h3>
+          <p>Streamlining processes with technology to save time, reduce errors, and boost productivity.</p>
         </div>
         <div className="feature">
-          <span className="feature-icon">🚀</span>
-          <h3>Problem Solving</h3>
-          <p>Finding elegant solutions to complex challenges</p>
+          <span className="feature-icon">🧩</span>
+          <h3>CreativeProblem Solving</h3>
+          <p>Bringing a fresh perspective to challenges and building practical, innovativve solutions.</p>
         </div>
       </div>
     </div>
