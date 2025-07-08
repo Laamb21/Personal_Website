@@ -99,12 +99,25 @@
   background: white;
   color: var(--color-accent);
   border: 2px solid var(--color-accent);
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.app.dark .home-btn.secondary {
+  background: #23272f;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .home-btn.secondary:hover {
   background: var(--color-accent);
   color: white;
   transform: translateY(-2px);
+}
+
+.app.dark .home-btn.secondary:hover {
+  background: var(--color-accent);
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 /* Home Image */
