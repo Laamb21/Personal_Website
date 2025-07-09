@@ -3,9 +3,12 @@ import './About.css';
 
 function About() {
   const skills = {
-    'Frontend': ['React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Sass', 'Bootstrap', 'Tailwind CSS'],
-    'Backend': ['Node.js', 'Express.js', 'Python', 'Django', 'PostgreSQL', 'MongoDB'],
-    'Tools & Others': ['Git', 'GitHub', 'VS Code', 'Postman', 'Docker', 'AWS', 'Figma']
+    'Frontend': ['React', 'Next.js', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'Responsive Design'],
+    'Backend': ['Node.js', 'Express.js', 'Python', 'Django', 'Flask', 'PostgreSQL', 'MongoDB', 'SQLite'],
+    'Automation & AI': ['OpenAI', 'Claude', 'Cursor', 'Tesseract', 'Automation Scripting', 'Web Scraping', 'Pandas', 'Numpy'],
+    'DevOps & Cloud': ['Azure', 'AWS', 'Docker', 'GitHub Actions', 'Git'],
+    'Tools & Workflow': ['Git', 'GitHub', 'VS Code', 'Postman', 'Docker', 'AWS', 'Figma'],
+    'Other/Soft Skills': ['Client Communication', 'Solutions Consulting', 'Technical Sales', 'Agile', 'Scrum', 'Technical Writing']
   };
 
   return (
