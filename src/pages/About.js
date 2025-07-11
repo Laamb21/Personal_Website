@@ -69,37 +69,46 @@ function About() {
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-content">
-                <h3>Full-Stack Developer</h3>
-                <p className="timeline-company">Tech Company Inc.</p>
-                <p className="timeline-date">2023 - Present</p>
-                <p>
-                  Building and maintaining web applications using React, Node.js, and PostgreSQL. 
-                  Collaborating with cross-functional teams to deliver high-quality software solutions.
-                </p>
+                <h3>Sales Representative & Solutions Coordinator</h3>
+                <p className="timeline-company">archSCAN LLC</p>
+                <p className="timeline-date">July 2024 - Present</p>
+                <ul className="timeline-list">
+                  <li>Built a custom AI-powered solution using Microsoft Azure Document Intelligence to extract and organize data from large-format architectural documents.</li>
+                  <li>Led the redesign and ongoing development of the company website to improve usability and showcase our services.</li>
+                  <li>Developed automation scripts in Python to streamline workflows and speed up key business processes.</li>
+                </ul>
               </div>
             </div>
             
             <div className="timeline-item">
               <div className="timeline-content">
-                <h3>Frontend Developer</h3>
-                <p className="timeline-company">Startup XYZ</p>
-                <p className="timeline-date">2022 - 2023</p>
-                <p>
-                  Developed responsive user interfaces and implemented modern web technologies 
-                  to enhance user experience and application performance.
-                </p>
+                <h3>Instructor</h3>
+                <p className="timeline-company">iD Tech</p>
+                <p className="timeline-date">May 2023 - August 2023</p>
+                <ul className="timeline-list">
+                  <li>Taught the following course to students aged 13-18:</li>
+                  <ul className='timeline-list'>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Machine Learning</li>
+                    <li>Game Design (Unreal Engine)</li>
+                  </ul>
+                  <li>Encouraged creative problem solving and mentored students through personal projects and challenges.</li>
+                </ul>
               </div>
             </div>
             
             <div className="timeline-item">
               <div className="timeline-content">
                 <h3>Computer Science Degree</h3>
-                <p className="timeline-company">University Name</p>
-                <p className="timeline-date">2018 - 2022</p>
-                <p>
-                  Graduated with honors, focusing on software engineering and web development. 
-                  Completed various projects including a capstone project on web application development.
-                </p>
+                <p className="timeline-company">Towson University</p>
+                <p className="timeline-date">2020 - 2024</p>
+                <ul className="timeline-list">
+                  <li>Completed coursework in software engineering, web development, artificial intelligence, and databases, building a solid technical foundation.</li>
+                  <li>Member of the Sigma Chi Fraternity - served as Scholarship Chair, Risk Manager, and Vice President.</li>
+                  <li>Learned to balance a busy academic schedule with extracurriculars, growing both personally and professionally.</li>
+                </ul>
               </div>
             </div>
           </div>
