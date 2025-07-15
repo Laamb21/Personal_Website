@@ -36,13 +36,13 @@ function Contact() {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Laamb21',
       icon: '📁',
       color: '#333'
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourprofile',
+      url: 'https://linkedin.com/in/liam-slade-78418b2a1',
       icon: '💼',
       color: '#0077b5'
     },
@@ -72,7 +72,7 @@ function Contact() {
           <h2>Let's Connect</h2>
           <p>
             Whether you have a question about my work, want to collaborate on a project, 
-            or just want to say hello, I'd love to hear from you. Feel free to reach out 
+            or just want to say hello, feel free to reach out 
             through any of the channels below.
           </p>
           
@@ -81,7 +81,7 @@ function Contact() {
               <span className="contact-icon">📍</span>
               <div>
                 <h3>Location</h3>
-                <p>San Francisco, CA</p>
+                <p>Clarksville, MD</p>
               </div>
             </div>
             
@@ -89,7 +89,7 @@ function Contact() {
               <span className="contact-icon">✉️</span>
               <div>
                 <h3>Email</h3>
-                <p>yourname@example.com</p>
+                <p>liamslade2@gmail.com</p>
               </div>
             </div>
             
@@ -97,7 +97,7 @@ function Contact() {
               <span className="contact-icon">📱</span>
               <div>
                 <h3>Phone</h3>
-                <p>+1 (555) 123-4567</p>
+                <p>+1 (410) 608-5071</p>
               </div>
             </div>
           </div>
