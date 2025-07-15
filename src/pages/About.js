@@ -35,9 +35,6 @@ function About() {
               others, whether that's helping out on a team project, troubleshooting a tough
               bug, or just geeking out over a new piece of technology.
             </p>
-            <p>
-              Fun fact: I'm a die-hard Ravens fan, and I'll talk football with anyone who'll listen.
-            </p>
           </div>
           <div className="about-image">
             <img src="/images/my-headshot.png" alt="Liam" />
@@ -118,20 +115,28 @@ function About() {
           <h2>Interests & Hobbies</h2>
           <div className="interests-grid">
             <div className="interest-item">
-              <h3>🚀 Open Source</h3>
-              <p>Contributing to open-source projects and building tools for the developer community.</p>
+              <h3>🎮 Call of Duty</h3>
+              <p>Immersing myself in the Call of Duty series to sharpen teamwork, quick decision-making, and strategic thinking under pressure.</p>
             </div>
             <div className="interest-item">
               <h3>📚 Learning</h3>
               <p>Always exploring new technologies and frameworks to expand my skill set.</p>
             </div>
             <div className="interest-item">
-              <h3>✍️ Writing</h3>
-              <p>Sharing knowledge through blog posts and technical articles.</p>
+              <h3>👨‍🍳 Grilling</h3>
+              <p>Experimenting with different cuts and marinades on the grill while honing precision, timing, and creative flavor combinations</p>
             </div>
             <div className="interest-item">
-              <h3>🎯 Problem Solving</h3>
-              <p>Enjoying coding challenges and algorithmic problem solving.</p>
+              <h3>🏃 Fitness & Wellness</h3>
+              <p>Balancing cardio, strength training, and mindfulness routines to build discipline, resilience, and mental clarity.</p>
+            </div>
+            <div className='interest-item'>
+              <h3>🌎 Travel</h3>
+              <p>Road-tripping up and down the U.S. East Coast — planning routes and uncovering hidden gems, with big ambitions to explore more of the country and beyond.</p>
+            </div>
+            <div className='interest-item'>
+              <h3>🏈 Football</h3>
+              <p>Die-hard Baltimore Ravens fan — attending games when I can, hosting/attending watch-parties, and rallying fellow fans on game days.</p>
             </div>
           </div>
         </div>
